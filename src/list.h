@@ -3,7 +3,7 @@
 
 void add(int value);
 void remove(int position);
-void find(position);
+void find(int position);
 void printList(void);
 
 #endif
