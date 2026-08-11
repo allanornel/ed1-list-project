@@ -4,6 +4,14 @@
 int list[10];
 int size = 0;
 
+void cleanList() {
+    for (int i = 0; i < size; i++) {
+        list[i] = 0;
+    }
+    size = 0;
+    printf("List was cleaned.");
+}
+
 
 void add(int value) {
     if (size == 10){
