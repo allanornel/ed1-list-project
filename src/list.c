@@ -136,20 +136,7 @@ void removeByValue(int value) {
         return;
     }
 
-    for (int i = 0; i < size; i++) {
-        if (list[i] == value) {
-            removedCount++;
-            shiftLeftFrom(i);
-            size--;
-            i--;
-        }
-    }
-
-    if (removedCount == 0) {
-        printf("Value %d was not found in the list.\n", value);
-    } else {
-        printf("%d occurrence(s) of %d removed.\n", removedCount, value);
-    }
+    // TODO implement the logic of removing by value
 }
 
 void find(int position) {
