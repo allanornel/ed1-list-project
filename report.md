@@ -4,6 +4,7 @@
 ### 1.1 Organização de Código
 O projeto foi desenvolvido em linguagem C e está organizado da seguinte forma:
 
+```
 trabalho1/
 ├── src/
 │   ├── lista.c
@@ -11,6 +12,7 @@ trabalho1/
 │   └── main.c
 ├── report.md
 └── README.txt
+```
 
 O arquivo lista.h contém as definições das estruturas e os protótipos das funções relacionadas à lista.
 
@@ -71,15 +73,8 @@ remoção dos valores;
 
 ## 3. Problemas encontrados
 
-Descrever dificuldades ou erros encontrados durante o desenvolvimento e como foram resolvidos.
-
-Exemplos:
-
-    erros de deslocamento;
-    problemas em inserções;
-    remoções incorretas;
-    falhas em casos limite.
-
+- Entender a gestão de um array de inteiros com valor fixo em referência a gestão da linguagem C referente as posições vazias que inicia uma lista que apenas contém 0 em todas suas posições como a ausência de valor. Logo foi preciso entender essa dinâmica e utilizar uma varíável size para gerir o tamanho da lista e se um 0 será considerado um valor real ou a ausência de valor com auxílio dessa variável.
+- 
 ## 4. Alterações desde o checkpoint
 
 1. Foi desenvolvido a feature final referente a exclusão dos números pelo seu valor. Opção #7 do presente menu.
