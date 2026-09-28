@@ -63,13 +63,13 @@ Resultado obtido:
 
 Também foram realizados testes envolvendo situações limite, como:
 
-inserção em uma lista vazia;
-remoção de um elemento da lista;
-tentativa de remoção de um elemento inexistente;
-inserção quando a lista está cheia;
-remoção do primeiro elemento;
-remoção do último elemento;
-remoção dos valores;
+- inserção em uma lista vazia;
+- remoção de um elemento da lista;
+- tentativa de remoção de um elemento inexistente;
+- inserção quando a lista está cheia;
+- remoção do primeiro elemento;
+- remoção do último elemento;
+- remoção dos valores;
 
 ## 3. Problemas encontrados
 
